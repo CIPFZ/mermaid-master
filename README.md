@@ -5,6 +5,15 @@ Next-Gen AI-Native Graph Editor for Developers.
 
 ---
 
+## 📸 界面预览
+|                       首页                       |                      AI对话生成                      |                      空白页                      |
+|:----------------------------------------------:|:------------------------------------------------:|:---------------------------------------------:|
+| <img src="screenshots/work.png" width="300" /> | <img src="screenshots/ai_work.png" width="300" /> | <img src="screenshots/home.png" width="300" /> |
+
+|                        设置                        |                         切换风格                          |
+|:------------------------------------------------:|:-----------------------------------------------------:|
+| <img src="screenshots/setting.png" width="300" /> | <img src="screenshots/change_style.png" width="300" /> |
+
 ## ✨ 核心特性 (Features)
 
 ### 🧠 AI Native（智能原生）
