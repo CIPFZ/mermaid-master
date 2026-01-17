@@ -1,0 +1,35 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "fs:default",
+    "fs:allow-write-text-file",
+    "fs:allow-read-text-file",
+    "fs:allow-write-file",
+    "fs:allow-exists",
+    "dialog:default",
+    {
+      "identifier": "fs:scope",
+      "allow": [
+        "$HOME/**",
+        "$DESKTOP/**",
+        "$DOCUMENTS/**",
+        "$DOWNLOADS/**"
+      ]
+    },
+    {
+      "identifier": "http:default",
+      "allow": [
+        { "url": "https://**" },
+        { "url": "http://**" }
+      ],
+      "deny": []
+    }
+  ]
+}
